@@ -63,21 +63,26 @@ export const LandingPage = (): JSX.Element => {
         </div>
         <div className='app-store-badge-US'>
           <div className='overlap'>
-            <img
-              className='app-store'
-              alt='App store'
-              src='/img/app-store.svg'
-            />
-            <img
-              className='download-on-the'
-              alt='Download on the'
-              src='/img/download-on-the.svg'
-            />
-            <img
-              className='icon-2'
-              alt='Icon'
-              src='/img/icon.svg'
-            />
+            <a
+              href='https://apple.com'
+              target='_blank'
+            >
+              <img
+                className='app-store'
+                alt='App store'
+                src='/img/app-store.svg'
+              />
+              <img
+                className='download-on-the'
+                alt='Download on the'
+                src='/img/download-on-the.svg'
+              />
+              <img
+                className='icon-2'
+                alt='Icon'
+                src='/img/icon.svg'
+              />
+            </a>
           </div>
         </div>
         <div className='home'>
